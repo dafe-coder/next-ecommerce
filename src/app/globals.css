@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+	html {
+		font-size: 16px;
+	}
+
+	body {
+		@apply text-dark-500 bg-white antialiased font-normal;
+	}
+}
